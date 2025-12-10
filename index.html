@@ -33,9 +33,10 @@
             background-color: #ffffff; 
             position: relative;
             box-shadow: 0 0 20px rgba(0,0,0,0.5);
-            min-height: 100vh; 
+            height: 100vh; 
             overflow-y: auto; 
             overflow-x: hidden;
+            scroll-behavior: smooth;
         }
 
         /* --- ESTILOS BOTÓN DE MÚSICA --- */
@@ -111,6 +112,7 @@
             position: relative; 
             width: 90%; 
             margin-bottom: -1px; 
+            min-height: 200px; /* Altura mínima para asegurar visualización */
         }
 
         .img-fondo {
@@ -137,7 +139,7 @@
         /* --- ELEMENTOS DECORATIVOS SECCIÓN 1 (PORTADA) --- */
         
         .icono-corona {
-            width: 30%;       
+            width: 30%;        
             max-width: 80px; 
             margin-top: 40px; 
             display: block;
@@ -239,7 +241,7 @@
         }
 
         .nombre-isabela {
-            font-family: 'Great Vibes', cursive;
+            font-family: 'Georgia', serif;
             font-size: 1.0rem; /* MODIFICADO: Reducido de 1.4rem a 1.0rem */
             color: #bfa378; 
             margin-bottom: 5px;
@@ -1006,8 +1008,5 @@
         });
     </script>
 </body>
-</html>
-</body>
-
 </html>
 
